@@ -1,0 +1,25 @@
+{
+  "name": "about-me",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbragaf/about-me.git"
+  },
+  "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
+  },
+  "engines": {
+    "npm": ">=2.14.x"
+  },
+  "author": "tbragaf",
+  "license": "MIT",
+  "dependencies": {
+    "angular2": "2.0.0-alpha.45",
+    "systemjs": "0.19.5"
+  },
+  "devDependencies": {
+    "live-server": "^0.8.1",
+    "typescript": "^1.6.2"
+  }
+}
